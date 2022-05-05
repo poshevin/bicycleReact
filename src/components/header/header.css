@@ -1,0 +1,91 @@
+.header {
+  position: absolute;
+  width: 1920px;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+}
+.header .logo {
+  position: absolute;
+  width: 185px;
+  height: 21px;
+  left: 390px;
+  top: 26px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #3F3F3F;
+}
+.header .logo .orangeWord {
+  color: orange;
+}
+.header .headerBtns {
+  position: absolute;
+  width: 510px;
+  height: 13px;
+  left: 629px;
+  top: 30px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  color: #3F3F3F;
+}
+.header .headerBtns .btns {
+  list-style-type: none;
+}
+.header .headerBtns .btns li {
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline;
+}
+.header .feedbackBtn {
+  position: absolute;
+  height: 18.0000095367px;
+  width: 126px;
+  left: 1411px;
+  top: 23px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #BABABA;
+}
+.header .tel {
+  position: absolute;
+  font-weight: bold;
+  width: 270px;
+  height: 30px;
+  left: 1174px;
+  top: 21px;
+  align-items: center;
+  display: flex;
+}
+.header .tel .number {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 13px;
+  color: #3F3F3F;
+}
+.header .tel .whatsApp1 {
+  padding-left: 12px;
+  height: 26px;
+  width: 26px;
+  left: 10px;
+  top: 21px;
+}
+.header .tel .telegram1 {
+  padding-left: 10px;
+  height: 26px;
+  width: 26px;
+  left: 10px;
+  top: 21px;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,99 @@
+.header{
+    position: absolute;
+    width: 1920px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    
+    .logo {
+        position: absolute;
+        width: 185px;
+        height: 21px;
+        left: 390px;
+        top: 26px;
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        color: #3F3F3F;
+        .orangeWord{
+            color: orange;
+        }
+    }
+    
+    .headerBtns{
+        position: absolute;
+        width: 510px;
+        height: 13px;
+        left: 629px;
+        top: 30px;
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        color: #3F3F3F;
+        .btns{
+            list-style-type: none;
+            li{
+                padding-right: 10px;
+                padding-left: 10px;
+                display: inline;
+            }
+        }
+    }
+    
+    .feedbackBtn{
+        position: absolute;
+        height: 18.000009536743164px;
+        width: 126px;
+        left: 1411px;
+        top: 23px;
+        padding-bottom: 9px;
+        border-bottom: 1px solid #BABABA
+    }
+    
+    .tel{
+        position: absolute;
+        font-weight: bold;
+        width: 270px;
+        height: 30px;
+        left: 1174px;
+        top: 21px;
+        align-items: center;
+        display: flex;
+
+        .number{
+            font-family: 'Gotham Pro';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 13px;
+            color: #3F3F3F;
+        }
+        
+        .whatsApp1{
+            padding-left: 12px;
+            height: 26px;
+            width: 26px;
+            left: 10px;
+            top: 21px;
+        }
+
+        .telegram1{
+            padding-left: 10px;
+            height: 26px;
+            width: 26px;
+            left: 10px;
+            top: 21px;      
+        }
+    }
+    
+}

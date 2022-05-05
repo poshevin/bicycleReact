@@ -1,0 +1,120 @@
+
+.background{
+    position: absolute;
+    width: 1920px;
+    height: 670px;
+    left: 0px;
+    top: 70px;
+    background-image: url('rectangle2.png');
+
+    .benefits{
+        position: absolute;
+        width: 1134px;
+        height: 82px;
+        left: 397px;
+        top: 391px;
+        
+        .one{
+            position: absolute;
+            
+            
+            .oneText{
+                font-family: 'Gotham Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 130%;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+            }
+        }
+        .two{
+            position: absolute;
+            padding-left: 35%;
+
+            .twoText{
+                font-family: 'Gotham Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 130%;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+            }   
+        }
+        .three{
+            position: absolute;
+            padding-left: 70%;
+
+            .threeText{
+                font-family: 'Gotham Pro';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 130%;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+            }
+        }        
+    }
+    .broken{
+        position: absolute;
+        width: 709px;
+        height: 17px;
+        left: 390px;
+        top: 150px;
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .repair{
+        position: absolute;
+        width: 971px;
+        height: 171px;
+        left: 390px;
+        top: 181px;
+    
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 57px;
+        display: flex;
+        align-items: center;
+    
+        color: #FFFFFF;
+    }
+    .cost{
+        position: absolute;
+        width: 310px;
+        height: 70px;
+        left: 390px;
+        top: 523px;
+        background: linear-gradient(180deg, #FFD74A 0%, #FFA400 100%);
+        border-radius: 10px;
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+
+
+
+
+
+

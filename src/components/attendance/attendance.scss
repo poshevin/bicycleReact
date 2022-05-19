@@ -1,0 +1,120 @@
+.section {
+    padding: 50px 0;
+
+    .container {
+        margin: 0 auto;
+        padding: 0 10px;
+        max-width: 1160px;
+        width: 100%;
+    }
+
+    .section__title {
+        line-height: 125%;
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    .section__subtitle {
+        max-width: 650px;
+        margin: 0 auto 50px;
+        text-align: center;
+
+        span{
+            font-weight: 700;
+        }
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .service__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .service__item {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .service__item-price {
+                position: absolute;
+                top: -20px;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 10;
+                padding: 10px 35px;
+                background: linear-gradient(180deg,#ffd74a 0,#ffa400 100%);
+                border-radius: 10px;
+                color: #fff;
+                font-weight: 500;
+            }
+
+            .service__item-img {
+                position: relative;
+                margin-bottom: 25px;
+                border-radius: 10px;
+                box-shadow: 0 4px 25px rgb(0 0 0 / 5%);
+                line-height: 0;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+            
+            .service__item-text {
+                margin-bottom: 20px;
+                max-width: 170px;
+                text-align: center;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+
+            .btn {
+                display: inline-block;
+                padding: 20px 40px;
+                background: 0 0;
+                color: #fff;
+                font-weight: 700;
+                transition: all .3s;
+                cursor: pointer;
+                border-radius: 10px;
+                font-size: 14px;
+            }
+
+            .btn--primary {
+                background: linear-gradient(180deg,#ffd74a 0,#ffa400 100%);
+            }
+            
+            a {
+                text-decoration: none;
+                transition: all .3s;
+            }
+        }
+    }
+}
+
+section {
+    display: block;
+}

@@ -1,91 +1,99 @@
+header {
+  display: block;
+}
+
+.header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 2;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
+}
+
 .header {
-  position: absolute;
-  width: 1920px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background: white;
+}
+.header .container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1160px;
+  width: 100%;
+}
+.header .container .headerMenu {
+  position: relative;
   height: 70px;
-  left: 0px;
-  top: 0px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
-}
-.header .logo {
-  position: absolute;
-  width: 185px;
-  height: 21px;
-  left: 390px;
-  top: 26px;
-  font-family: "Gotham Pro";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 19px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  color: #3F3F3F;
 }
-.header .logo .orangeWord {
-  color: orange;
-}
-.header .headerBtns {
-  position: absolute;
-  width: 510px;
-  height: 13px;
-  left: 629px;
-  top: 30px;
-  font-family: "Gotham Pro";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 13px;
-  display: flex;
-  align-items: center;
-  color: #3F3F3F;
-}
-.header .headerBtns .btns {
-  list-style-type: none;
-}
-.header .headerBtns .btns li {
-  padding-right: 10px;
-  padding-left: 10px;
-  display: inline;
-}
-.header .feedbackBtn {
-  position: absolute;
-  height: 18.0000095367px;
-  width: 126px;
-  left: 1411px;
-  top: 23px;
-  padding-bottom: 9px;
-  border-bottom: 1px solid #BABABA;
-}
-.header .tel {
-  position: absolute;
-  font-weight: bold;
-  width: 270px;
-  height: 30px;
-  left: 1174px;
-  top: 21px;
-  align-items: center;
-  display: flex;
-}
-.header .tel .number {
+.header .container .headerMenu .logo {
+  flex: 0 0 185px;
+  position: relative;
+  z-index: 3;
+  margin-right: 30px;
   font-family: "Gotham Pro";
   font-style: normal;
   font-weight: 900;
   font-size: 20px;
-  line-height: 13px;
+  display: flex;
+  align-items: center;
   color: #3F3F3F;
 }
-.header .tel .whatsApp1 {
-  padding-left: 12px;
-  height: 26px;
-  width: 26px;
-  left: 10px;
-  top: 21px;
+.header .container .headerMenu .logo .orangeWord {
+  color: orange;
 }
-.header .tel .telegram1 {
+.header .container .headerMenu .menu {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  align-items: center;
+}
+.header .container .headerMenu .menu .btns {
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+.header .container .headerMenu .menu .btns li {
+  padding-right: 10px;
   padding-left: 10px;
-  height: 26px;
-  width: 26px;
-  left: 10px;
-  top: 21px;
+  display: inline;
+  color: #3f3f3f;
+  font-size: 14px;
+  font-weight: 400;
+}
+.header .container .headerMenu .menu .tel {
+  display: flex;
+  align-items: center;
+}
+.header .container .headerMenu .menu .tel .number {
+  margin-right: 10px;
+  color: #3f3f3f;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.header .container .headerMenu .menu .tel .whatsApp1 {
+  margin-right: 10px;
+}
+.header .container .feedbackBtn {
+  position: relative;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #dbdbdb;
+  color: #3f3f3f;
 }/*# sourceMappingURL=header.css.map */

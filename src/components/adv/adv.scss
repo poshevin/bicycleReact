@@ -1,119 +1,68 @@
 
 .background{
-    position: absolute;
-    width: 1920px;
-    height: 670px;
-    left: 0px;
-    top: 70px;
-    background-image: url('rectangle2.png');
+    background: url('rectangle2.png') no-repeat center / cover;
+    padding: 150px 0;
+    color: #fff;
 
-    .benefits{
-        position: absolute;
-        width: 1134px;
-        height: 82px;
-        left: 397px;
-        top: 391px;
+    .banner{
+        margin: 0 auto;
+        padding: 0 10px;
+        max-width: 1160px;
+        width: 100%;
         
-        .one{
-            position: absolute;
-            
-            
-            .oneText{
-                font-family: 'Gotham Pro';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 130%;
-                display: flex;
-                align-items: center;
-                color: #FFFFFF;
-            }
+        .banner__subtitle{
+            font-size: 18px;
         }
-        .two{
-            position: absolute;
-            padding-left: 35%;
-
-            .twoText{
-                font-family: 'Gotham Pro';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 130%;
-                display: flex;
-                align-items: center;
-                color: #FFFFFF;
-            }   
+        .banner__title{
+            font-size: 60px;
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 30px;
         }
-        .three{
-            position: absolute;
-            padding-left: 70%;
+        .banner__benefits{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 50px;
 
-            .threeText{
-                font-family: 'Gotham Pro';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 130%;
+            .banner__benefit{
                 display: flex;
                 align-items: center;
-                color: #FFFFFF;
-            }
+
+                img{
+                    max-width: 100%;
+                    width: 76; 
+                    height: 73;
+                }
+
+                .banner_benefit-img{
+                    margin-right: 15px; 
+                }
+
+                .banner__benefit-text{
+                    margin-top: 10px;
+                    line-height: 130%;
+                    max-width: 275px;
+                }
+            }  
         }        
     }
-    .broken{
-        position: absolute;
-        width: 709px;
-        height: 17px;
-        left: 390px;
-        top: 150px;
-        font-family: 'Gotham Pro';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 17px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
+
+    .btn--primary {
+        background: linear-gradient(180deg,#ffd74a 0,#ffa400 100%);
     }
-    .repair{
-        position: absolute;
-        width: 971px;
-        height: 171px;
-        left: 390px;
-        top: 181px;
-    
-        font-family: 'Gotham Pro';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 60px;
-        line-height: 57px;
-        display: flex;
-        align-items: center;
-    
-        color: #FFFFFF;
-    }
-    .cost{
-        position: absolute;
-        width: 310px;
-        height: 70px;
-        left: 390px;
-        top: 523px;
-        background: linear-gradient(180deg, #FFD74A 0%, #FFA400 100%);
-        border-radius: 10px;
-        font-family: 'Gotham Pro';
-        font-style: normal;
+    .btn {
+        display: inline-block;
+        padding: 20px 40px;
+        color: #fff;
         font-weight: 700;
-        font-size: 16px;
-        line-height: 15px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #FFFFFF;
+        transition: all .3s;
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 14px;   
     }
+    
 }
-
-
-
 
 
 

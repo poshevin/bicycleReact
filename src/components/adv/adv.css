@@ -1,104 +1,56 @@
 .background {
-  position: absolute;
-  width: 1920px;
-  height: 670px;
-  left: 0px;
-  top: 70px;
-  background-image: url("rectangle2.png");
+  background: url("rectangle2.png") no-repeat center/cover;
+  padding: 150px 0;
+  color: #fff;
 }
-.background .benefits {
-  position: absolute;
-  width: 1134px;
-  height: 82px;
-  left: 397px;
-  top: 391px;
+.background .banner {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1160px;
+  width: 100%;
 }
-.background .benefits .one {
-  position: absolute;
-}
-.background .benefits .one .oneText {
-  font-family: "Gotham Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 130%;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-}
-.background .benefits .two {
-  position: absolute;
-  padding-left: 35%;
-}
-.background .benefits .two .twoText {
-  font-family: "Gotham Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 130%;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-}
-.background .benefits .three {
-  position: absolute;
-  padding-left: 70%;
-}
-.background .benefits .three .threeText {
-  font-family: "Gotham Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 130%;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-}
-.background .broken {
-  position: absolute;
-  width: 709px;
-  height: 17px;
-  left: 390px;
-  top: 150px;
-  font-family: "Gotham Pro";
-  font-style: normal;
-  font-weight: 400;
+.background .banner .banner__subtitle {
   font-size: 18px;
-  line-height: 17px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
 }
-.background .repair {
-  position: absolute;
-  width: 971px;
-  height: 171px;
-  left: 390px;
-  top: 181px;
-  font-family: "Gotham Pro";
-  font-style: normal;
-  font-weight: 900;
+.background .banner .banner__title {
   font-size: 60px;
-  line-height: 57px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 30px;
 }
-.background .cost {
-  position: absolute;
-  width: 310px;
-  height: 70px;
-  left: 390px;
-  top: 523px;
-  background: linear-gradient(180deg, #FFD74A 0%, #FFA400 100%);
-  border-radius: 10px;
-  font-family: "Gotham Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 15px;
+.background .banner .banner__benefits {
   display: flex;
   align-items: center;
-  text-align: center;
-  color: #FFFFFF;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.background .banner .banner__benefits .banner__benefit {
+  display: flex;
+  align-items: center;
+}
+.background .banner .banner__benefits .banner__benefit img {
+  max-width: 100%;
+  width: 76;
+  height: 73;
+}
+.background .banner .banner__benefits .banner__benefit .banner_benefit-img {
+  margin-right: 15px;
+}
+.background .banner .banner__benefits .banner__benefit .banner__benefit-text {
+  margin-top: 10px;
+  line-height: 130%;
+  max-width: 275px;
+}
+.background .btn--primary {
+  background: linear-gradient(180deg, #ffd74a 0, #ffa400 100%);
+}
+.background .btn {
+  display: inline-block;
+  padding: 20px 40px;
+  color: #fff;
+  font-weight: 700;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 14px;
 }/*# sourceMappingURL=adv.css.map */

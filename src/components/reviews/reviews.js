@@ -22,6 +22,7 @@ function Reviews () {
 
         function SliderCreator ({img, date, name, infoTitle, text}) {
             return(
+            <div className="centered">
             <div className="review__card">
                 <div class="review__info">
                     <div class="review__info-img">
@@ -36,6 +37,7 @@ function Reviews () {
                     </div>
                   </div>
                 <div className="review__text">{text}</div>            
+            </div>
             </div>
             )
         };
@@ -57,11 +59,12 @@ function Reviews () {
                             )
                         })}
                     </Slider>
-                    <div className="review__btn">
+                   
+                </div>
+                <div className="review__btn">
                     <a href="https://yandex.ru/maps/2/saint-petersburg/?ll=30.205212%2C59.988779&amp;mode=search&amp;oid=1239714352&amp;ol=biz&amp;sctx=ZAAAAAgBEAAaKAoSCRR5knTNUD5AEfTF3osv%2BE1AEhIJZVJDG4CN7z8RCOkpcoi40j8iBQABAgQFKAowADjOs76ptuiPzjxAAkgBVc3MzD5YAGoCcnVwAJ0BzcxMPaABAKgBAL0BHVl%2FLg%3D%3D&amp;sll=30.205212%2C59.988779&amp;sspn=0.030813%2C0.009127&amp;text=rollerslife%20%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81&amp;z=16" target="_blank" class="link review__link">
                         Больше отзывов на <span class="yandex">Яндекс</span>
                     </a>
-                    </div>
                 </div>
             </div>
         </section>

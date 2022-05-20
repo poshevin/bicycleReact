@@ -1,0 +1,68 @@
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1160px;
+    width: 100%;
+
+    .section__title {
+        line-height: 125%;
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    .section__subtitle {
+        max-width: 650px;
+        margin: 0 auto 50px;
+        text-align: center;
+    }
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .review__card {
+        position: relative;
+        max-width: 810px;
+        padding: 55px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 25px rgb(0 0 0 / 5%);
+        border-radius: 10px;
+        .review__info {
+            margin-bottom: 20px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            .review__info-img {
+                margin-right: 20px;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+            }
+            .review__info-elements {
+                font-size: 15px;
+                .review__info-date {
+                    color: #dbdbdb;
+                }
+                .review__info-name {
+                    font-weight: 700;
+                }
+                
+            }
+        }
+    }
+}

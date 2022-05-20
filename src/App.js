@@ -15,7 +15,7 @@ function App() {
         <Adv/>
         <Feedback/>
         <Attendance/>
-
+        <Reviews/>
     </div>
   );
 }
